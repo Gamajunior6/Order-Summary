@@ -21,4 +21,5 @@ i hope you guys could give me your honest opinion, as i really need it my coding
 
 
 
-LIVE SITE: [![Netlify Status](https://api.netlify.com/api/v1/badges/4f6fbb3b-2198-44cf-b00c-259958a83b3d/deploy-status)](https://app.netlify.com/sites/order-summary-junior/deploys)
+LIVE SITE: https://order-summary-junior.netlify.app
+ 

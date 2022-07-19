@@ -1,0 +1,117 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+
+/* this where the picture of the body is styled*/
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: Red Hat Display;
+   background-image: url(/images/pattern-background-desktop.svg);
+   width:100%;
+   height: 400px;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   position:relative;
+   background-color:hsl(225, 100%, 94%);
+   
+}
+
+/* this is the Wrapper containing everything on the body, also where everything is design*/
+
+.Wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 1.5rem;
+    background-color: white;;
+    width: 380px;
+}
+
+.Content{
+    text-align: center;
+}
+
+/* the annual box*/
+
+.Box{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 15px;
+    margin: 10px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 0.5rem;
+    gap: 5rem;
+}
+
+.sub_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+/* this is the button box*/
+button{
+    padding: 13px;
+    margin: 20px;
+    width: 310px;
+    font-size: 16px;
+    font: 700;
+    font-family: 'Red Hat Display', sans-serif;
+    border-radius: 0.5rem;
+    background-color:hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 5px 10px 8px hsl(245, 14%, 70%);
+}
+
+.end{
+    margin: 20px;
+    font-size:16px;
+    font-family: 'Red Hat Display', sans-serif;
+    color:hsl(223, 47%, 23%);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* this are special tags being styled separately*/
+h1{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: larger;
+    color:hsl(223, 47%, 23%);
+}
+
+p{
+    font-family: 'Red Hat Display', sans-serif;
+    line-height: 1.5;
+    color:hsl(224, 23%, 55%);
+    font-size: 16px;
+}
+
+span{
+    color:hsl(223, 47%, 23%);
+}
+
+
+img{
+    max-width: 100%;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+
+
+@media only screen and (max-width: 375px){
+
+}
